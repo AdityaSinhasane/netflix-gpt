@@ -8,16 +8,19 @@ const MainContainer = () => {
     if(!movies) return;
 
     const mainMovie = movies[0];
-    //console.log(mainMovie);
+    // Add check if mainMovie is undefined
+    if (!mainMovie) return null;
 
-    const {original_title,overview,id} = mainMovie;
+    const { original_title, overview, id } = mainMovie;
 
-  return (
-    <div>
+    return (
+      <div>
         <VideoTitle title={original_title} overview={overview}/>
         <VideoBackground movieId={id}/>
-    </div>
-  )
+      </div>
+    );
 }
 
-export default MainContainer
+export default MainContainer;
+
+
