@@ -38,7 +38,7 @@
 - GPT Search Feature
 - GPT Search Bar
 - (BONUS) Multi-Language Feature in our App
-- Integrate GPT APIs(get open AI key)
+- Integrate GPT APIs(get open AI key)   
 
 
 
